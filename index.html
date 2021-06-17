@@ -5,26 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/estilos.css" />
+    <script src="js/include-html.js"></script>
     <title>Incluir HTML con AJAX</title>
   </head>
   <body>
-    <header class="header">
-      <section class="header-content container">
-        <article class="logo">
-          <img src="assets/img/My.png" alt="mi imagen" />
-        </article>
-        <nav class="menu">
-          <a href="assets/home.html">Home</a>
-          <a href="assets/acerca.html">Acerca</a>
-          <a href="assets/servicios.html">Servicios</a>
-          <a href="assets/contacto.html">Contacto</a>
-        </nav>
-      </section>
-    </header>
+    <div data-include="assets/header.html"></div>
     <main class="container"></main>
-    <footer class="footer container">
-      <p><small>Sitio diseñado por Oswaldo Alonzo</small></p>
-    </footer>
+    <div data-include="assets/footer.html"></div>
     <script src="js/script.js"></script>
   </body>
 </html>
